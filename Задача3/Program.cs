@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿void Tablice(int N)
+{
+    for (int i = 1; i <= N; i++)
+    {
+        int j = i * i;
+        Console.WriteLine(j);
+    }
+
+}
+
+int N = 9;
+Tablice(N);
