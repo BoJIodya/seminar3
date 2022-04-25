@@ -3,7 +3,7 @@
     for (int i = 1; i <= N; i++)
     {
         int j = i * i;
-        Console.WriteLine(j);
+        Console.WriteLine($"{i} * {i} = {j}");
     }
 
 }
